@@ -91,6 +91,7 @@ iconEl.addEventListener("click", function() {
         bodyEl.style.backgroundColor = "black";
         document.querySelector("h2").style.color = "white";
         document.querySelector("p").style.color = "white";
+        document.querySelector("body").style.color = "black";
         document.querySelector("label").style.color = "white";
         buttonEl.style.color = "black";
         buttonEl.style.backgroundColor = "white";
@@ -99,6 +100,7 @@ iconEl.addEventListener("click", function() {
         document.querySelector("h2").style.color = "black";
         document.querySelector("p").style.color = "black";
         document.querySelector("label").style.color = "black";
+        document.querySelector("body").style.color = "white";
         buttonEl.style.color = "white";
         buttonEl.style.backgroundColor = "black";
     }
