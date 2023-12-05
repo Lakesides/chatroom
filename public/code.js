@@ -88,6 +88,7 @@ const buttonEl = document.querySelector("#join-user");
 iconEl.addEventListener("click", function() {
    iconEl.classList.toggle("bi-sun");
     if (iconEl.classList.contains("bi-sun")) {
+        iconEl.style.color = "white";
         bodyEl.style.backgroundColor = "black";
         document.querySelector("h2").style.color = "white";
         document.querySelector("p").style.color = "white";
@@ -97,6 +98,7 @@ iconEl.addEventListener("click", function() {
         buttonEl.style.backgroundColor = "white";
     } else {
         bodyEl.style.backgroundColor = "white";
+        iconEl.style.color = "black";
         document.querySelector("h2").style.color = "black";
         document.querySelector("p").style.color = "black";
         document.querySelector("label").style.color = "black";
